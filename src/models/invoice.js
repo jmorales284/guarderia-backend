@@ -1,7 +1,6 @@
 // src/models/Invoice.js
 import { DataTypes } from 'sequelize';
 import sequelize from '../config/database.js';
-import Payment from './Payment.js'; // relación opcional (si ya existe el modelo)
 
 const Invoice = sequelize.define(
   'Invoice',
